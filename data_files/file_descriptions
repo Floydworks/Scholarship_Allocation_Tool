@@ -1,0 +1,7 @@
+MIT_income_table.csv, required income pre tax data table, MIT living wage data
+
+calculated_costs_table.csv, table of calculated costs and set costs.
+
+fabricated_allotments.csv, fabricated applicant data for tool assessment and future NLP development.
+
+df_past_awards2.csv, anonymized applicant income and circumstances data with amoounts awardedd and percent funding eligible for using allocation tool.
