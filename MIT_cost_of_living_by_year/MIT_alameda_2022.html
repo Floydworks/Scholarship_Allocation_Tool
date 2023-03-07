@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>
+      Living Wage Calculator
+       - Living Wage Calculation for Alameda County, California
+    </title>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,700,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" media="all" href="/assets/application-3a1563aa8478f951cc94e2ed65955ba926f11b81e40ff0eaffe25a1c6f852f97.css" />
+    <script src="/assets/application-39fdf2eb0b29d1b212982a9694cf845fc3387c753591a313f1c56434319c3d2f.js"></script>
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="xMblGV2APbtnEN1eXV2UZ3Xo6/mGNoilUaQ4K8TLc5RCmWMEGjM6jKVilv72JaDP7gr0XOWH9X5BPc9SUCtjlg==" />
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon/favicon-cc2ffe9c2a813278798e8d13dca12d98a3916d26107ce5afb4caab6c60ce2405.ico" />
+  </head>
+  <body class="displaying_results">
+  <div class="header">
+    <div class="navbar navbar-static-top" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle nav_hamburger" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href=/>
+          <h1 class="logo_wrap logo pull-left">
+            <span class="logo_lw">Living Wage</span>
+            <span class="logo_calc">calculator</span>
+          </h1>
+        </a>
+      </div>
+      <div class="collapse navbar-collapse navbar-ex1-collapse" style="box-shadow: none!important!;">
+        <div class="col-sm-2 col-md-2 pull-right nav_link_wrap">
+          <ul class="nav-links nav navbar-nav">
+            <li><a href="/articles">Articles</a></li>
+            <li><a href="/pages/about">About</a></li>
+            <li><a href="/pages/faqs">FAQs</a></li>
+            <li><a href="/pages/contact">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div>
+      <div class="container">
+  <h1>Living Wage Calculation for Alameda County, California</h1>
+
+  <p class="results_info">
+  The living wage shown is the hourly rate that an <strong>individual</strong> in a household must earn to 
+  support his or herself and their family. The assumption is the sole provider is working 
+  full-time (2080 hours per year). The tool provides information for individuals, and households 
+  with one or two working adults and zero to three children. In the case of households with 
+  two working adults, all values are <strong>per working adult, single or in a family</strong> unless otherwise noted. <br><br>
+  
+  The state minimum wage is the same for all individuals, regardless of how many dependents 
+  they may have. Data are updated annually, in the first quarter of the new year. State 
+  minimum wages are determined based on the posted value of the minimum wage as of January 
+  one of the coming year (National Conference of State Legislatures, 2019). The poverty rate 
+  reflects a person&apos;s gross annual income. We have converted it to an hourly wage for the 
+  sake of comparison.
+  </p>
+  <p>
+    For further detail, please reference the
+    <a target="_blank" href="/resources/Living-Wage-Users-Guide-Technical-Documentation-2022-05-10.pdf">technical documentation here</a>.
+  </p>
+
+
+<div class="table-responsive table_wrap">
+  <table class="results_table table-striped">
+    <thead>
+      <tr>
+        <th colspan="1"> </th>
+        <th colspan="4">1 ADULT</th>
+        <th colspan="4">2 ADULTS<p>(1 WORKING)</p></th> 
+        <th colspan="4">2 ADULTS<p>(BOTH WORKING)</p></th>
+      </tr>
+    </thead>
+    <thead>
+      <tr>
+        <td class="blank_cell"> </td>
+        <td><b>0&nbsp;Children</b></td>
+        <td><b>1&nbsp;Child</b></td> 
+        <td><b>2&nbsp;Children</b></td>
+        <td><b>3&nbsp;Children</b></td>
+
+        <td><b>0&nbsp;Children</b></td>
+        <td><b>1&nbsp;Child</b></td> 
+        <td><b>2&nbsp;Children</b></td>
+        <td><b>3&nbsp;Children</b></td>
+
+        <td><b>0&nbsp;Children</b></td>
+        <td><b>1&nbsp;Child</b></td> 
+        <td><b>2&nbsp;Children</b></td>
+        <td><b>3&nbsp;Children</b></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="odd results">
+        <td class="text wage_title"><b>Living Wage</b></td>
+          <td>
+            $24.26
+          </td>
+          <td>
+            $49.56
+          </td>
+          <td>
+            $62.38
+          </td>
+          <td>
+            $84.34
+          </td>
+          <td>
+            $36.53
+          </td>
+          <td>
+            $44.12
+          </td>
+          <td>
+            $50.08
+          </td>
+          <td>
+            $57.84
+          </td>
+          <td>
+            $18.26
+          </td>
+          <td>
+            $26.67
+          </td>
+          <td>
+            $34.26
+          </td>
+          <td>
+            $42.75
+          </td>
+      </tr>
+
+      <tr class="even">
+        <td class="text wage_title"><b>Poverty Wage</b></td>
+          <td class="red">
+            $6.19
+          </td>
+          <td class="red">
+            $8.38
+          </td>
+          <td class="red">
+            $10.56
+          </td>
+          <td class="red">
+            $12.74
+          </td>
+          <td class="red">
+            $8.38
+          </td>
+          <td class="red">
+            $10.56
+          </td>
+          <td class="red">
+            $12.74
+          </td>
+          <td class="red">
+            $14.92
+          </td>
+          <td class="red">
+            $4.19
+          </td>
+          <td class="red">
+            $5.28
+          </td>
+          <td class="red">
+            $6.37
+          </td>
+          <td class="red">
+            $7.46
+          </td>
+      </tr>
+
+      <tr class="odd">
+        <td class="text wage_title"><b>Minimum Wage</b></td>
+          <td class="red">
+            $15.00
+          </td>
+          <td class="red">
+            $15.00
+          </td>
+          <td class="red">
+            $15.00
+          </td>
+          <td class="red">
+            $15.00
+          </td>
+          <td class="red">
+            $15.00
+          </td>
+          <td class="red">
+            $15.00
+          </td>
+          <td class="red">
+            $15.00
+          </td>
+          <td class="red">
+            $15.00
+          </td>
+          <td class="red">
+            $15.00
+          </td>
+          <td class="red">
+            $15.00
+          </td>
+          <td class="red">
+            $15.00
+          </td>
+          <td class="red">
+            $15.00
+          </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+
+<h2 class="page_title">Typical Expenses</h2>
+<p>
+  These figures show the individual expenses that went into the living
+  wage estimate. Their values vary by family size, composition, and
+  the current location.
+</p>
+<div class="table-responsive table_wrap">
+  <table class="results_table table-striped expense_table">
+    <thead>
+      <tr>
+        <th colspan="1"> </th>
+        <th colspan="4">1 ADULT</th>
+        <th colspan="4">2 ADULTS<p>(1 WORKING)</p></th> 
+        <th colspan="4">2 ADULTS<p>(BOTH WORKING)</p></th>
+      </tr>
+    </thead>
+    <thead>
+      <tr>
+        <td class="blank_cell"> </td>
+        <td><b>0&nbsp;Children</b></td>
+        <td><b>1&nbsp;Child</b></td> 
+        <td><b>2&nbsp;Children</b></td>
+        <td><b>3&nbsp;Children</b></td>
+
+        <td><b>0&nbsp;Children</b></td>
+        <td><b>1&nbsp;Child</b></td> 
+        <td><b>2&nbsp;Children</b></td>
+        <td><b>3&nbsp;Children</b></td>
+
+        <td><b>0&nbsp;Children</b></td>
+        <td><b>1&nbsp;Child</b></td> 
+        <td><b>2&nbsp;Children</b></td>
+        <td><b>3&nbsp;Children</b></td>
+      </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td class="text">Food</td>
+      <td>
+        $3,999
+      </td>
+      <td>
+        $5,893
+      </td>
+      <td>
+        $8,853
+      </td>
+      <td>
+        $11,742
+      </td>
+      <td>
+        $7,332
+      </td>
+      <td>
+        $9,124
+      </td>
+      <td>
+        $11,764
+      </td>
+      <td>
+        $14,321
+      </td>
+      <td>
+        $7,332
+      </td>
+      <td>
+        $9,124
+      </td>
+      <td>
+        $11,764
+      </td>
+      <td>
+        $14,321
+      </td>
+  </tr>
+  <tr class="even">
+    <td class="text">Child Care</td>
+      <td>
+        $0
+      </td>
+      <td>
+        $14,718
+      </td>
+      <td>
+        $29,436
+      </td>
+      <td>
+        $44,154
+      </td>
+      <td>
+        $0
+      </td>
+      <td>
+        $0
+      </td>
+      <td>
+        $0
+      </td>
+      <td>
+        $0
+      </td>
+      <td>
+        $0
+      </td>
+      <td>
+        $14,718
+      </td>
+      <td>
+        $29,436
+      </td>
+      <td>
+        $44,154
+      </td>
+  </tr>
+  <tr class="odd">
+    <td class="text">Medical</td>
+      <td>
+        $2,288
+      </td>
+      <td>
+        $7,462
+      </td>
+      <td>
+        $7,249
+      </td>
+      <td>
+        $7,559
+      </td>
+      <td>
+        $5,764
+      </td>
+      <td>
+        $7,249
+      </td>
+      <td>
+        $7,559
+      </td>
+      <td>
+        $7,347
+      </td>
+      <td>
+        $5,764
+      </td>
+      <td>
+        $7,249
+      </td>
+      <td>
+        $7,559
+      </td>
+      <td>
+        $7,347
+      </td>
+  </tr>
+  <tr class="even">
+    <td class="text">Housing</td>
+      <td>
+        $20,709
+      </td>
+      <td>
+        $30,941
+      </td>
+      <td>
+        $30,941
+      </td>
+      <td>
+        $41,497
+      </td>
+      <td>
+        $25,111
+      </td>
+      <td>
+        $30,941
+      </td>
+      <td>
+        $30,941
+      </td>
+      <td>
+        $41,497
+      </td>
+      <td>
+        $25,111
+      </td>
+      <td>
+        $30,941
+      </td>
+      <td>
+        $30,941
+      </td>
+      <td>
+        $41,497
+      </td>
+  </tr>
+  <tr class="odd">
+    <td class="text">Transportation</td>
+      <td>
+        $4,938
+      </td>
+      <td>
+        $8,762
+      </td>
+      <td>
+        $11,391
+      </td>
+      <td>
+        $13,456
+      </td>
+      <td>
+        $8,762
+      </td>
+      <td>
+        $11,391
+      </td>
+      <td>
+        $13,456
+      </td>
+      <td>
+        $14,613
+      </td>
+      <td>
+        $8,762
+      </td>
+      <td>
+        $11,391
+      </td>
+      <td>
+        $13,456
+      </td>
+      <td>
+        $14,613
+      </td>
+  </tr>
+  <tr class="even">
+    <td class="text">Civic</td>
+      <td>
+        $2,581
+      </td>
+      <td>
+        $4,144
+      </td>
+      <td>
+        $5,120
+      </td>
+      <td>
+        $6,686
+      </td>
+      <td>
+        $4,144
+      </td>
+      <td>
+        $5,120
+      </td>
+      <td>
+        $6,686
+      </td>
+      <td>
+        $5,314
+      </td>
+      <td>
+        $4,144
+      </td>
+      <td>
+        $5,120
+      </td>
+      <td>
+        $6,686
+      </td>
+      <td>
+        $5,314
+      </td>
+  </tr>
+  <tr class="odd">
+    <td class="text">Other</td>
+      <td>
+        $4,748
+      </td>
+      <td>
+        $7,080
+      </td>
+      <td>
+        $6,477
+      </td>
+      <td>
+        $9,424
+      </td>
+      <td>
+        $7,080
+      </td>
+      <td>
+        $6,477
+      </td>
+      <td>
+        $9,424
+      </td>
+      <td>
+        $9,115
+      </td>
+      <td>
+        $7,080
+      </td>
+      <td>
+        $6,477
+      </td>
+      <td>
+        $9,424
+      </td>
+      <td>
+        $9,115
+      </td>
+  </tr>
+  <tr class="even">
+    <td class="text">Required annual income after taxes</td>
+      <td>
+        $39,386
+      </td>
+      <td>
+        $79,124
+      </td>
+      <td>
+        $99,590
+      </td>
+      <td>
+        $134,640
+      </td>
+      <td>
+        $58,316
+      </td>
+      <td>
+        $70,426
+      </td>
+      <td>
+        $79,951
+      </td>
+      <td>
+        $92,331
+      </td>
+      <td>
+        $58,316
+      </td>
+      <td>
+        $85,144
+      </td>
+      <td>
+        $109,387
+      </td>
+      <td>
+        $136,485
+      </td>
+  </tr>
+  <tr class="odd">
+    <td class="text">Annual taxes</td>
+      <td>
+        $11,077
+      </td>
+      <td>
+        $23,969
+      </td>
+      <td>
+        $30,169
+      </td>
+      <td>
+        $40,787
+      </td>
+      <td>
+        $17,666
+      </td>
+      <td>
+        $21,334
+      </td>
+      <td>
+        $24,220
+      </td>
+      <td>
+        $27,970
+      </td>
+      <td>
+        $17,666
+      </td>
+      <td>
+        $25,793
+      </td>
+      <td>
+        $33,137
+      </td>
+      <td>
+        $41,346
+      </td>
+  </tr>
+  <tr class="even results">
+    <td class="text">Required annual income before taxes</td>
+      <td>
+        $50,463
+      </td>
+      <td>
+        $103,093
+      </td>
+      <td>
+        $129,759
+      </td>
+      <td>
+        $175,426
+      </td>
+      <td>
+        $75,982
+      </td>
+      <td>
+        $91,760
+      </td>
+      <td>
+        $104,171
+      </td>
+      <td>
+        $120,301
+      </td>
+      <td>
+        $75,982
+      </td>
+      <td>
+        $110,937
+      </td>
+      <td>
+        $142,524
+      </td>
+      <td>
+        $177,831
+      </td>
+  </tr>
+    </tbody>
+  </table>
+</div>
+
+
+
+
+  <h2 class="page_title">Typical Annual Salaries</h2>
+  <p>
+    These are the typical annual salaries for various professions in this location.
+  </p>
+  <div class="table-responsive table_wrap">
+    <table class="results_table table-striped salary_table">
+      <thead>
+        <tr>
+          <th colspan="1">Occupational Area</th>
+          <th colspan="1">Typical Annual Salary</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr class="odd">
+            <td class="text">
+              Management
+            </td>
+            <td class="black">
+              $138,148
+            </td>
+          </tr>
+          <tr class="even">
+            <td class="text">
+              Business &amp; Financial Operations
+            </td>
+            <td class="red">
+              $84,198
+            </td>
+          </tr>
+          <tr class="odd">
+            <td class="text">
+              Computer &amp; Mathematical
+            </td>
+            <td class="black">
+              $119,872
+            </td>
+          </tr>
+          <tr class="even">
+            <td class="text">
+              Architecture &amp; Engineering
+            </td>
+            <td class="black">
+              $105,770
+            </td>
+          </tr>
+          <tr class="odd">
+            <td class="text">
+              Life, Physical, &amp; Social Science
+            </td>
+            <td class="red">
+              $91,100
+            </td>
+          </tr>
+          <tr class="even">
+            <td class="text">
+              Community &amp; Social Service
+            </td>
+            <td class="red">
+              $58,272
+            </td>
+          </tr>
+          <tr class="odd">
+            <td class="text">
+              Legal
+            </td>
+            <td class="black">
+              $117,935
+            </td>
+          </tr>
+          <tr class="even">
+            <td class="text">
+              Education, Training, &amp; Library
+            </td>
+            <td class="red">
+              $64,168
+            </td>
+          </tr>
+          <tr class="odd">
+            <td class="text">
+              Arts, Design, Entertainment, Sports, &amp; Media
+            </td>
+            <td class="red">
+              $69,625
+            </td>
+          </tr>
+          <tr class="even">
+            <td class="text">
+              Healthcare Practitioners &amp; Technical
+            </td>
+            <td class="black">
+              $105,245
+            </td>
+          </tr>
+          <tr class="odd">
+            <td class="text">
+              Healthcare Support
+            </td>
+            <td class="red">
+              $33,159
+            </td>
+          </tr>
+          <tr class="even">
+            <td class="text">
+              Protective Service
+            </td>
+            <td class="red">
+              $52,280
+            </td>
+          </tr>
+          <tr class="odd">
+            <td class="text">
+              Food Preparation &amp; Serving Related
+            </td>
+            <td class="red">
+              $31,993
+            </td>
+          </tr>
+          <tr class="even">
+            <td class="text">
+              Building &amp; Grounds Cleaning &amp; Maintenance
+            </td>
+            <td class="red">
+              $37,461
+            </td>
+          </tr>
+          <tr class="odd">
+            <td class="text">
+              Personal Care &amp; Service
+            </td>
+            <td class="red">
+              $34,047
+            </td>
+          </tr>
+          <tr class="even">
+            <td class="text">
+              Sales &amp; Related
+            </td>
+            <td class="red">
+              $38,049
+            </td>
+          </tr>
+          <tr class="odd">
+            <td class="text">
+              Office &amp; Administrative Support
+            </td>
+            <td class="red">
+              $46,994
+            </td>
+          </tr>
+          <tr class="even">
+            <td class="text">
+              Farming, Fishing, &amp; Forestry
+            </td>
+            <td class="red">
+              $31,169
+            </td>
+          </tr>
+          <tr class="odd">
+            <td class="text">
+              Construction &amp; Extraction
+            </td>
+            <td class="red">
+              $62,681
+            </td>
+          </tr>
+          <tr class="even">
+            <td class="text">
+              Installation, Maintenance, &amp; Repair
+            </td>
+            <td class="red">
+              $58,497
+            </td>
+          </tr>
+          <tr class="odd">
+            <td class="text">
+              Production
+            </td>
+            <td class="red">
+              $40,168
+            </td>
+          </tr>
+          <tr class="even">
+            <td class="text">
+              Transportation &amp; Material Moving
+            </td>
+            <td class="red">
+              $37,578
+            </td>
+          </tr>
+        </tbody>
+    </table>
+  </div>
+</div>
+
+  </div>
+
+  <div id="footer" class="footer">
+    <div class="partners">
+      <div class="partner_thank_you">
+        Thanks to Our Supporters
+      </div>
+      <span>
+        <a target="_blank" href="https://www.avaloncommunities.com/"><img class="partner_logo" src="/assets/avalonbay-logo-12fa859eda03cbbc37dff74e7a99ac5b67b319a45feda81b1a63227e8c56d90b.png" /></a>
+      </span>
+      <span>
+        <a target="_blank" href="https://www.ikea.com/us/en/"><img class="partner_logo" src="/assets/ikea-logo-26651f18791ec734dba967fd3ec083263bcba14bb5c01201f6dbe61a6ca8e4b5.png" /></a>
+      </span>
+      <span>
+        <a target="_blank" href="https://justcapital.com/"><img class="partner_logo" src="/assets/just-capital-219a0bbdb4ef8d86f928a80881f295a58f05d122f636aab4e2ca1ab8005a83ee.png" /></a>
+      </span>
+      <span>
+        <a target="_blank" href="https://www.lazardassetmanagement.com/us/en_us"><img class="partner_logo" src="/assets/lazard-white-361b23ba4501763b7b23675405eecdaa04313a9f496b9c907b515e3ef5e20c74.png" /></a>
+      </span>
+      <span>
+        <a target="_blank" href="https://www.lisc.org/"><img class="partner_logo" src="/assets/lisc-logo-c9963b4537102689085c6c13f0eebf60ee3046ae5fe3daeb6cded49c9ec74fa3.png" /></a>
+      </span>
+      <span>
+        <a target="_blank" href="https://www.loopinsure.co/"><img class="partner_logo" src="/assets/loop-9857b4c78ff008a3bffad4bb7d298f7691a29188093ffa88708734beb9792b5c.png" /></a>
+      </span>
+      <span>
+        <a target="_blank" href="https://www.mercer.com/"><img class="partner_logo" src="/assets/mercer-a4c824f8925b6e98dd8592ec3060dadf59a7def325dde805414886780a8443ed.png" /></a>
+      </span>
+      <span>
+        <a target="_blank" href="https://www.metroone.com"><img class="partner_logo" src="/assets/metro-one-logo-26af93377b7a9b2e91453a93689ace177303d912d7987f91cf3a1e9ae821d728.jpg" /></a>
+      </span>
+      <span>
+        <a target="_blank" href="https://www.opendatanation.com/"><img class="partner_logo" src="/assets/open-data-nation-9b614cd9044920288b21bbd815ce3f5793280010d6b73e3fc63ccd95a893e268.png" /></a>
+      </span>
+      <span>
+        <a target="_blank" href="https://www.patagonia.com/home/"><img class="partner_logo" src="/assets/patagonia-cbde64c6a3cef9d8af7cc5ff0e193041972333b8c7e3525f56dd7a656aaee23f.jpg" /></a>
+      </span>
+      <span>
+        <a target="_blank" href="https://www.westarete.com"><img class="partner_logo" src="/assets/westarete_logo-06b0f25b8081d3b5aa303cd9e0c1720b36c4ba4e95826e0bad8883d0785f1fa6.png" /></a>
+      </span>
+      <span>
+        <a target="_blank" href="https://www.wonolo.com"><img class="partner_logo" src="/assets/wonolo-logo-3b1f44ce47b9a00c8eb8bb30446b1a50903590c4408a6b885e0ae22652b48dc5.png" /></a>
+      </span>
+      <div class="data-warning">
+      Please do not scrape our data. As a general practice, due to resource constraints and to preserve numerical integrity, we limit distribution of data. <a target="_blank" href="/pages/contact">Contact Amy Glasmeier</a> for questions about data use agreement. Become a supporter.
+      </div>
+    </div>
+    <div id="copyright">
+      <p>
+        &copy;
+        2023
+        <a href="https://dusp.mit.edu/faculty/amy-glasmeier">Dr. Amy K. Glasmeier</a>
+        and the
+        <a href="https://web.mit.edu/">Massachusetts Institute of Technology</a>
+      </p>
+        <span class="sign_in_btn" style="display: inline-block">
+          <a href="/articles/new">SIGN IN</a>
+        </span>
+    </div>
+  </div>
+
+  <script>
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script>
+  var pageTracker = _gat._getTracker("UA-426568-9");
+  pageTracker._trackPageview();
+</script>
+
+  </body>
+</html>
