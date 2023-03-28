@@ -1,0 +1,104 @@
+﻿name,applied,household_income_pre_tax,number_adults,number_children,additional_expenses
+a,yes,0,1,1,
+b,yes,0,1,1,
+c,yes,0,3,2,
+d,yes,0,2,2,
+e,yes,10000,1,2,
+f,yes,15500,1,1,I have an injury that is keeping me from work
+g,yes,26800,1,1,our housing costs have gone up substantially
+h,yes,27000,12,3,
+i,yes,30000,2,2,
+j,yes,30000,3,1,
+k,yes,35000,1,1,
+l,yes,35000,1,2,
+m,yes,40000,1,1,"I was unemployed for the first half of the year, we care for a family member out of state"
+n,yes,40000,1,1,"single parent, no child support"
+o,yes,40000,2,1,
+p,yes,41000,2,2,
+q,yes,45000,2,3,we recently moved while our home is being repaired
+r,yes,45000,1,1,
+s,yes,45000,2,3,
+t,yes,45000,4,2,
+u,yes,45000,1,1,sole provider for elderly mother as well as my child
+v,yes,45000,1,2,we are paying for both the kids sports this summer
+x,yes,45000,2,3,
+y,yes,50000,1,1,
+z,yes,50000,2,2,
+aa,yes,50000,3,4,
+bb,yes,50000,1,2,"recently divorced, not sure what child support will look like"
+cc,yes,55000,1,1,lost my job of 18 years
+dd,yes,55000,2,1,we pay to travel to another country each year to support family
+e,yes,55000,2,2,"tuition, medical expenses, unemployment"
+f,yes,60000,2,2,mom is in doctoral program
+g,yes,60000,3,3,one income household
+h,yes,60000,4,2,still paying student loans
+ii,yes,60000,1,1,
+j,yes,65000,1,2,
+k,yes,65000,2,2,
+ll,yes,65000,1,1,
+mm,yes,65000,1,1,
+nn,yes,70000,1,1,I am paying some big hospital bills
+mm,yes,70000,1,1,we are supporting some fmaily members who are overseas
+oo,yes,70000,2,1,we pay to travel to another country each year to support family
+pp,yes,70000,1,1,my parents lost housing and moved in with us
+qq,yes,70000,3,1,currently getting divorced
+rr,yes,70000,1,2,
+ss,yes,70000,1,1,
+t,yes,75000,1,1,we are supporting some fmaily members who are overseas
+uu,yes,75000,1,2,
+vv,yes,75000,3,1,my parents lost housing and moved in with us
+xx,yes,80000,1,1,
+yy,yes,80000,2,1,
+zz,yes,80000,3,1,currently getting divorced
+aaa,yes,80000,1,2,
+bbb,yes,80000,1,2,one child has special needs
+ccc,yes,80000,2,3,
+ddd,yes,85000,2,2,going through a separation
+eee,yes,85000,5,2,caring for grandparents
+fff,yes,85000,2,3,we have one child in college and a sick grandmother
+ggg,yes,85000,1,1,
+hhh,yes,85000,2,1,housing
+iii,yes,90000,1,1,"education, immigration"
+jjj,yes,90000,1,1,
+kkk,yes,90000,2,1,
+lll,yes,90000,2,2,
+mmm,yes,90000,2,3,mom is in college and one child is in a special ed private school
+nnn,yes,90000,1,3,
+ooo,yes,90000,3,1,
+ppp,yes,90000,4,2,
+qqq,yes,100000,1,1,
+rrr,yes,100000,3,3,my mom lives with us and goes to the hospital a lot
+sss,yes,110000,1,1,
+ttt,yes,110000,1,1,"education, medical, housing"
+uuu,yes,110000,2,2,
+vvv,yes,110000,1,1,
+www,yes,110000,2,1,
+xxx,yes,110000,3,2,
+yyy,yes,120000,1,2,
+zzz,yes,120000,2,4,
+aaaa,yes,120000,2,4,currently separating from my partner
+bbbb,yes,130000,1,1,
+cccc,yes,130000,2,2,"education, housing"
+dddd,yes,140000,1,1,
+eeee,yes,140000,1,2,
+ffff,yes,140000,2,3,medical
+gggg,yes,150000,1,1,
+hhhh,yes,150000,2,1,
+iiii,yes,150000,2,3,
+jjjj,yes,160000,3,1,"immigration, housing, divorce"
+kkkk,yes,160000,1,2,
+llll,yes,160000,2,3,
+mmmm,yes,160000,2,4,
+nnnn,yes,170000,1,1,
+oooo,yes,170000,3,5,
+pppp,yes,170000,2,2,
+qqqq,yes,170000,2,3,education
+rrrr,yes,180000,3,4,
+ssss,yes,180000,2,2,
+tttt,yes,180000,1,1,
+uuuu,yes,190000,2,2,
+vvvv,yes,190000,2,4,"education, medical, housing"
+wwww,yes,200000,2,1,
+xxxx,yes,200000,3,2,
+yyyy,yes,220000,2,4,we have two children in college
+zzzz,yes,220000,4,3,
